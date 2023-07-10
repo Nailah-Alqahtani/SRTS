@@ -7,11 +7,18 @@
   pointer-events: none;
 }
 
+:root {
+  --blue: #0270BF;
+  --navy: #03002D;
+  --orange: #E78733;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #282c34;
