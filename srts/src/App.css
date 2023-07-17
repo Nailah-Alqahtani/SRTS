@@ -9,7 +9,7 @@
 
 :root {
   --blue: #0270BF;
-  --navy: #03002D;
+  --navy: #162B5A;
   --orange: #E78733;
 }
 
@@ -18,7 +18,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 
 .App-header {
   background-color: #282c34;
