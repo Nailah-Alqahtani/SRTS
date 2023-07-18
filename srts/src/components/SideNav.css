@@ -1,9 +1,10 @@
 #sidenav{
     background-color: var(--navy);
     left: 0;
-    padding: 1em;
-    height: 100vh;
-    width: 20%;
+    padding: 1.5em 1em 1em 1em;
+    height: 100% !important;
+    width: 18%;
+    text-align: start;
 }
 #sidenav-container{
     height: 100%;
@@ -13,21 +14,25 @@
     border-radius: 5px;
     border: none;
     padding: 5px 15px 5px 10px;
+    width: 60%;
 }
 #sidenav-search-btn{
-    border:none;
+    border: none;
     border-radius: 5px;
+    font-size: 1em;
     color: white;
     padding: 5px 10px 5px 10px;
     background-color: var(--orange);
 }
 #sidenav-search-btn:hover{
+    cursor: pointer;
     background-color:#d17423 ;
 }
 #sidenav-search-container{
   width: 100%;
   display: flex;
   justify-content: space-around;
+  position: sticky;
 }
 .sidenav-aircraft-item{
     color: white;
@@ -45,10 +50,20 @@
     font-weight: 600;
     padding: 8px 0px 8px 8px;
 }
+#sidenav-aircrafts-list-container{
+    margin-top: 0.4em;
+    height: 100%;
+    overflow-y: scroll;
+    margin-bottom: 1em;
+}
 #sidenav-aircrafts-list{
-    padding-top: 1em;
+    padding-top: 0.6em;
     padding-left: 0px;
+    height: 90%;
 }
 .sidenav-aircraft-item-arrow{
-    margin-right: 5px;
+    margin-right: 8px;
+}
+.sidenav-aircraft-sublist-icon{
+    margin-right: 8px;
 }

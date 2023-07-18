@@ -1,9 +1,9 @@
 import React from "react";
 import "./Login.css";
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import logo from "../assets/images/Logo.png";
 
-function Login() {
+const Login = () => {
   return (
     <div>
       <div className="background-image"></div>
@@ -23,7 +23,7 @@ function Login() {
                   <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
 
-                <Button variant="primary" type="submit" className="btn-block">
+                <Button variant="primary" type="submit" className="btn-block" onClick={()=>{window.open("/main");}}>
                   Login
                 </Button>
               </Form>
