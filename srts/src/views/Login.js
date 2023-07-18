@@ -13,7 +13,7 @@ const Login = () => {
             <div className="d-flex flex-column align-items-center white-container ">
               <img src={logo} alt="Logo" className="logo-image" />
 
-              <h3 className="text-center">Welcome Back!</h3>
+              <h3 className="text-center" style={{color: 'var(--navy'}}>Welcome Back!</h3>
               <Form>
                 <Form.Group controlId="formBasicUsername">
                   <Form.Control type="Username" placeholder="Username" />

@@ -47,6 +47,12 @@ const SideNav = () => {
                                 Tasks/Status
                             </a>
                         </li>
+                        <li class="sidenav-aircraft-sublist-item">
+                            <a class="sidenav-aircraft-sublist-item-anchor">
+                                <i class="bi bi-calendar-event sidenav-aircraft-sublist-icon"></i>
+                                Due List
+                            </a>
+                        </li>
                     </ul>
                 </div>
               </li>

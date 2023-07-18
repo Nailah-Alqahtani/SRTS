@@ -8,4 +8,21 @@
    padding-left: 1em;
    padding-right: 1em;
    display: flex;
+   width: 100%;
+}
+#logout-btn{
+    background-color: rgb(186, 27, 27);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5em 0.8em 0.5em 0.8em;
+}
+#logout-btn:hover{
+    background-color: rgb(158, 20, 20);
+    cursor: pointer;
+}
+#header-username-icon{
+    color: var(--blue);
+    font-size: 1.3em;
+    margin-right: 5px;
 }
