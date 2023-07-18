@@ -8,7 +8,7 @@
 }
 
 .background-image {
-  background-image: url("./assets/images/login_background.webp");
+  background-image: url("../assets/images/login_background.webp");
   background-size: cover;
   position: absolute;
   top: 0;
