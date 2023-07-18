@@ -35,14 +35,14 @@ const SideNav = () => {
                 </a>
                 <div>
                     <ul class="sidenav-aircraft-sublist">
-                        <li>
-                            <a>
+                        <li class="sidenav-aircraft-sublist-item">
+                            <a class="sidenav-aircraft-sublist-item-anchor">
                                 <i class="bi bi-file-earmark-fill sidenav-aircraft-sublist-icon"></i>
                                 Documents
                             </a>
                         </li>
-                        <li>
-                            <a>
+                        <li class="sidenav-aircraft-sublist-item">
+                            <a class="sidenav-aircraft-sublist-item-anchor">
                                 <i class="bi bi-list-task sidenav-aircraft-sublist-icon"></i>
                                 Tasks/Status
                             </a>
