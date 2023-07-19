@@ -48,10 +48,9 @@
     text-decoration: none;
     color: white;
     font-weight: 600;
-    padding: 8px 0px 8px 8px;
-    width: 100%;
+    width:max-content;
     border-radius: 10px;
-    padding: 15px 0px 15px 0px;
+    padding: 15px 8.5em 15px 8px;
 }
 .sidenav-aircraft:hover{
     background-color: var(--blueHover) ;
@@ -82,9 +81,13 @@
     padding: 1em 0 1em 0;
 }
 .sidenav-aircraft-sublist-item-anchor{
-    padding: 0.8em 5px 0.8em 5px;
+    padding: 0.8em 30% 0.8em 8px;
     border-radius: 10px;
+    width: 100%;
 }
 .sidenav-aircraft-sublist-item-anchor:hover{
     background-color: var(--blueHover) ;
+}
+.sidenav-aircraft-item-sublist{
+    display: none;
 }

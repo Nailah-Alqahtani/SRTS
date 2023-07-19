@@ -23,8 +23,8 @@ const Login = () => {
                   <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
 
-                <Button variant="primary" type="submit" className="btn-block" onClick={()=>{window.open("/main");}}>
-                  Login
+                <Button variant="primary" type="submit" className="btn-block" style={{border: 'none'}}>
+                  <a href="/main" style={{textDecoration: 'none', color: 'white'}}>Login</a>
                 </Button>
               </Form>
             </div>
