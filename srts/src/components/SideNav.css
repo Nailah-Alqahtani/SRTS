@@ -40,6 +40,7 @@
     border-radius: 10px;
     padding: 15px 0px 15px 0px;
     width: 100%;
+    margin-bottom: 5px;
 }
 .sidenav-aircraft-item:hover{
     cursor: pointer;
@@ -90,4 +91,7 @@
 }
 .sidenav-aircraft-item-sublist{
     display: none;
+}
+.selected-aircraft{
+    background-color: var(--blueHover);
 }

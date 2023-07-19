@@ -8,12 +8,14 @@ const closeItemSublist = (id) => {
     document.getElementById('sublist-'+id).style.display = 'none'
     document.getElementById('i-'+id).classList.remove('bi-caret-down-fill');
     document.getElementById('i-'+id).classList.add('bi-caret-right-fill');
+    document.getElementById('aircraft-'+id).classList.remove('selected-aircraft');
 }
 
 const openItemSublist = (id) => {
     document.getElementById('sublist-'+id).style.display = 'block'
     document.getElementById('i-'+id).classList.remove('bi-caret-right-fill');
     document.getElementById('i-'+id).classList.add('bi-caret-down-fill');
+    document.getElementById('aircraft-'+id).classList.add('selected-aircraft');
 }
 
 const handleAircraftClick = (id) => {
@@ -40,7 +42,7 @@ const SideNav = () => {
         <div id="sidenav-aircrafts-list-container" class="text-start">
             <ul class="text-start" id="sidenav-aircrafts-list">
               <li class="sidenav-aircraft-item" id="1" onClick={()=>{handleAircraftClick(1)}}>
-                <a class="sidenav-aircraft">
+                <a class="sidenav-aircraft" id="aircraft-1">
                     <i class="bi bi-caret-right-fill sidenav-aircraft-item-arrow" id="i-1"></i>
                     HZ-HC12
                 </a>
@@ -68,7 +70,7 @@ const SideNav = () => {
                 </div>
               </li>
               <li class="sidenav-aircraft-item" id="2" onClick={()=>{handleAircraftClick(2)}}>
-                <a class="sidenav-aircraft">
+                <a class="sidenav-aircraft" id="aircraft-2">
                     <i class="bi bi-caret-right-fill sidenav-aircraft-item-arrow" id="i-2"></i>
                     HZ-HC12
                 </a>
@@ -96,7 +98,7 @@ const SideNav = () => {
                 </div>
               </li>
               <li class="sidenav-aircraft-item" id="3" onClick={()=>{handleAircraftClick(3)}}>
-                <a class="sidenav-aircraft">
+                <a class="sidenav-aircraft" id="aircraft-3">
                     <i class="bi bi-caret-right-fill sidenav-aircraft-item-arrow" id="i-3"></i>
                     HZ-HC12
                 </a>
@@ -124,7 +126,7 @@ const SideNav = () => {
                 </div>
               </li>
               <li class="sidenav-aircraft-item" id="4" onClick={()=>{handleAircraftClick(4)}}>
-                <a class="sidenav-aircraft">
+                <a class="sidenav-aircraft" id="aircraft-4">
                     <i class="bi bi-caret-right-fill sidenav-aircraft-item-arrow" id="i-4"></i>
                     HZ-HC12
                 </a>
